@@ -225,13 +225,13 @@ In this exercise, you will provision a blob storage account using the Hot tier, 
 
     e. Select the same **location** as your Resource Group.
 
-    f. For Runtime stack, select **Javascript**.
+    f. For Runtime stack, select **Node.js**.
 
     g. Leave the **storage** option as **create new**.
 
     h. Ensure **Disabled** is selected for **Application Insights** (we'll add this later).
 
-    ![Fields in the Function App blade are set to the previously defined settings.](media/new-functionapp-javascript.png 'Function App blade')
+    ![Fields in the Function App blade are set to the previously defined settings.](images/functionapp-nodejs.png 'Function App blade')
 
 8.  Select **Create**.
 
@@ -580,13 +580,15 @@ In this task, you will create a new Node.js function triggered by Event Grid and
 
 4.  Enter **event grid** into the template search form, then select the **Azure Event Grid trigger** template.
 
-    a. If prompted, click **Install** and wait for the extension to install.
+    a. Click on **Azure Event Grid Trigger**.
 
-    ![Install azure extension form.](media/install-function-extension.png 'Template search form')
+    ![In the Template search form, event grid is typed in the search field. Below, the Event Grid trigger function option displays.](media/image44.png 'Template search form')
 
     b. Click **Continue**.
 
-    ![In the Template search form, event grid is typed in the search field. Below, the Event Grid trigger function option displays.](media/image44.png 'Template search form')
+    If prompted, click **Install** and wait for the extension to install.
+
+    ![Install azure extension form.](media/install-function-extension.png 'Template search form')
 
 5.  Click **Create**.
 
