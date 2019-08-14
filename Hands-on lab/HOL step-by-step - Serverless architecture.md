@@ -590,6 +590,13 @@ In this task, you will create a new Node.js function triggered by Event Grid and
 
 5.  Click **Create**.
 
+6. Once installation is completed, a new window will prompt where you'll be creating a new function
+
+   a. Enter 
+![In the Template search form, event grid is typed in the search field. Below, the Event Grid trigger function option displays.](media/image44.png 'Template search form')
+
+
+
 6.  Replace the code in the new SavePlateData function with the following:
 
 ```javascript
